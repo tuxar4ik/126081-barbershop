@@ -3,12 +3,15 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Барбершоп</title>
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700&amp;subset=cyrillic" rel="stylesheet">
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
   </head>
-  <body>
+  <body class="inner-page">
     <header class="main-header">
-      <nav class="main-vavigation">
+      <nav class="main-navigation">
         <a class="main-header-logo" href="index.html">
-          <img  src="img/index-logo.svg" alt="Логотип Барбершоп Бородинский" width="111" height="24" >
+          <img  src="img/logo.svg" alt="Логотип Барбершоп Бородинский" width="111" height="24" >
         </a>
         <ul class="site-navigation">
           <li><a href="info.html">Информация</a></li>
@@ -38,7 +41,7 @@
             <legend>Производители:</legend>
             <ul>
               <li class="filter-option">
-                <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="baxter-of-california" id="filter-baxter-of-california" >
+                <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="baxter-of-california" id="filter-baxter-of-california" checked>
                 <label for="filter-baxter-of-california">Baxter of California</label>
               </li>
               <li class="filter-option">
@@ -46,7 +49,7 @@
                 <label for="filter-mr-natty">Mr Natty</label>
               </li>
               <li class="filter-option">
-                <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="suavecito" id="filter-suavecito" >
+                <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="suavecito" id="filter-suavecito" checked>
                 <label for="filter-suavecito">Suavecito</label>
               </li>
               <li class="filter-option">
@@ -58,7 +61,7 @@
                 <label for="filter-murrays">Murray’s</label>
               </li>
               <li class="filter-option">
-                <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="american-crew" id="filter-american-crew" >
+                <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="american-crew" id="filter-american-crew" checked>
                 <label for="filter-american-crew">American Crew</label>
               </li>
             </ul>
@@ -71,7 +74,7 @@
                 <label for="filter-shave">Бритвенные принадлежности</label>
               </li>
               <li class="filter-option">
-                <input class="visually-hidden filter-input filter-input-radio" type="radio" name="product-group" value="hair-care" id="filter-care" >
+                <input class="visually-hidden filter-input filter-input-radio" type="radio" name="product-group" value="hair-care" id="filter-care" checked>
                 <label for="filter-care">Средства для ухода</label>
               </li>
               <li class="filter-option">
